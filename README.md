@@ -1,8 +1,8 @@
 # WGA_RWPT
 
-(Update: 19 September 2026)
-
 WGA_RWPT ("Warm-start Genetic algorithm coupled with Random-Walk Particle Tracking" ) is a MATLAB/OCTAVE (and soon a Python) code. It can be used to optimize hydraulic barriers (HBs) used for solute plume containment in polluted aquifers. WGA_RWPT is framed on a simulation–optimization framework that coupled a warm-start genetic algorithm (GA) with parallel RWPT to identify minimal pumping rates for HB containment in a computationally efficient manner. 
+
+A test version of the code is provided. The default configuration resolves the case with "MultiGaussian" fields, dispersive flux with longitidunal dispersivity of 1m, using a warm-start approach with 100000 particles.
 
 For more information and for using it, please refer to and cite 
 D. Pedretti, "Hydraulic barrier optimization using random-walk particle tracking in heterogeneous media: effects of dispersion, particle discretization and algorithmic initialization" (under review on Water Resources Research).
